@@ -18,4 +18,5 @@ RUN poetry install --no-interaction --no-ansi --no-root --no-dev
 # Copy Python code to the Docker image
 COPY winrate_tracker_api /code/winrate_tracker_api/
 
-CMD [ "python", "winrate_tracker_api/foo.py"]
+WORKDIR /code/winrate_tracker_api/winrate_tracker_api
+CMD [ "poetry", "run", "flask", "run"]
