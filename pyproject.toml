@@ -2,7 +2,7 @@
 name = "winrate_tracker_api"
 version = "0.0.1"
 description = "An API for the winrate tracker android app to store user data"
-authors = ["Chris Steel <fchristopher.g.steel@gmail.com>"]
+authors = ["Chris Steel <christopher.g.steel@gmail.com>"]
 repository = "https://github.com/Christopher-Steel/winrate-tracker-api"
 documentation = "https://Christopher-Steel.github.io/winrate-tracker-api/"
 readme = "README.md"
